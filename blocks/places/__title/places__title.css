@@ -1,0 +1,17 @@
+.place__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+    margin: 0;
+    display: grid;
+    align-self: end;
+    justify-self: start;
+  }
+  @media screen and (max-width: 400px){
+    .place__title{
+      width: 288px;
+      font-size: 32px;
+  
+    }
+  }

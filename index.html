@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" >
-    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./vendor/normalize.css">
     <title>Путешествие по России</title>
   </head>
   <body>
@@ -38,7 +38,6 @@
             />
             <p class="lead__caption">ваша полка — верхняя</p>
           </section>
-
           <section class="intro section">
             <h2 class="intro__title">
               Чего мы там не видели?
@@ -137,41 +136,31 @@
               </div>
             </div>
             <div class="place">
-                <h2 class="place__title">
-                    Алтай
-                </h2>
+              <h2 class="place__title">Алтай</h2>
+              <div class="place__url">
+                <p class="place__url-heading">URL</p>
+                <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="place__link"> Facebook</a>
+              </div>
+              <img src="./images/place-altai.jpg" alt="водный горизонт" class="place__image">
+              <div>
+                <p class="place__text">
+                  Алтай — одно из красивейших мест в России. 
+                  В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, 
+                  усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле 
+                  окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
+                </p>
+                <p class="place__text">
+                  Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы 
+                  увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, 
+                  над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — 
+                  тоже обитатели Алтайского края.
+                </p>
+              </div>
+              </div>
+              <div class="place">
+                <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__url">
-                    <p class="place__url-heading">
-                        URL
-                    </p>
-                    <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="place__link">
-                        Facebook
-                    </a>
-                </div>
-                <img src="./images/place-altai.jpg" alt="водный горизонт" class="place__image">
-                <div>
-                    <p class="place__text">
-                        Алтай — одно из красивейших мест в России. 
-                        В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, 
-                        усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле 
-                        окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
-                    </p>
-                    <p class="place__text">
-                        Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы 
-                        увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, 
-                        над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — 
-                        тоже обитатели Алтайского края.
-                    </p>
-                </div>
-            </div>
-            <div class="place">
-                <h2 class="place__title">
-                    Зимний Байкал
-                </h2>
-                <div class="place__url">
-                    <p class="place__url-heading">
-                        URL
-                    </p>
+                  <p class="place__url-heading"> URL</p>
                     <a href="https://vk.com/baikalmile" target="_blank" class="place__link">
                         https://vk.com/baikalmile
                     </a>
@@ -222,11 +211,13 @@
             </div>
         </section> 
         <section class="cover">
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala"><img src="" class="cover__img" alt="Вокзал">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-            </a>
-        </section> 
+        <a href="https://stampsy.com/na-elektrichkakh-do-baikala"  class="cover__image">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.
+          </p>
+        </a>
+      </section>
       </main>
         <footer class="footer">
           <ul class="footer__links">

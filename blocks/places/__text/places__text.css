@@ -1,0 +1,8 @@
+.place__text {
+    line-height: 30px;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 24px;
+    display: grid;
+    align-self: baseline;        
+  }
