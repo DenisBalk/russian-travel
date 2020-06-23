@@ -31,3 +31,15 @@
     opacity: 0.8;
   
   }
+  @media (max-width: 768px){
+    .cover__image {
+      width: 100%;
+      padding: calc(115*100%/1184) 0;
+    }
+  }
+@media (max-width: 425px){
+  .cover__image {
+    width: 100%;
+    padding: calc(33*100%/1184) 0;
+  }
+}

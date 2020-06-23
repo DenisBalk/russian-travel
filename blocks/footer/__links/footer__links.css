@@ -6,19 +6,14 @@
     padding: 0;
     margin: 0;
   }
-  
-  @media screen and (max-width: 500px) {
-    .footer__links {
-        display: block;
-    }
-  
-  }
   @media (max-width: 425px){
   .footer__links {
     min-height: 248px;
     justify-content: space-between;
     flex-direction: column;
-    margin-bottom: 0px;
+    margin-bottom: 48px;
     margin-top: 0px;
+    align-items: flex-start;
+  }
 }
   
