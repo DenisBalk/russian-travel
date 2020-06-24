@@ -8,11 +8,10 @@
   }
   @media (max-width: 425px){
   .footer__links {
-    min-height: 248px;
     justify-content: space-between;
     flex-direction: column;
     margin-bottom: 48px;
-    margin-top: 0px;
+    text-decoration: none;
     align-items: flex-start;
   }
 }

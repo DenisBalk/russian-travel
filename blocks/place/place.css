@@ -4,14 +4,14 @@
 @import url(./__title/places__title.css);
 @import url(./__url-heading/places__url-heading.css);
 @import url(./__url/place__url.css);
-@import url(./places/place.css);
+@import url(./__texts/place__texts.css);
 
 .place {
     display: grid;
     grid-gap: 48px 40px;
     grid-template-columns: 460px 1fr;
     grid-auto-rows: max-content;
-    margin-bottom: 80px;
+    margin-bottom: 48px;
     justify-content: center;
   }
   @media screen and (max-width: 400px){
@@ -24,3 +24,9 @@
   .place:last-child {
     margin-bottom: 0;
   }
+  @media screen and (max-width: 768px){
+.place {
+  grid-template-columns: 340px 352px;
+  margin-bottom: 72px;
+}
+}

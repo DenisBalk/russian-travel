@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествие по России</title>
   </head>
-  <body>
-    <div class="page">
+  <body class="page">
+    
       <div class="page__content">
         <header class="header section">
           <img class="header__logo" src="./images/header-logo.svg" alt="Россия" />
@@ -55,35 +55,35 @@
             </p>
             <ul class="intro__list">
               <li class="intro__list-item">
-                Часовых поясов 11
+                Часовых поясов <span class="intro__span">11</span> 
               </li>
               <li class="intro__list-item">
-                Объектов природного наследия ЮНЕСКО 12
+                Объектов природного наследия ЮНЕСКО  <span class="intro__span">12</span>
               </li>
               <li class="intro__list-item">
-                Объектов культурного наследия ЮНЕСКО 16
+                Объектов культурного наследия ЮНЕСКО <span class="intro__span">16</span>
               </li>
               <li class="intro__list-item">
-                Природных заповедников 105
+                Природных заповедников <span class="intro__span">105</span>
               </li>
               <li class="intro__list-item">
-                Аэропортов 241
+                Аэропортов <span class="intro__span">241</span>
               </li>
             </ul>
           </section>
-          <section class="photo__gride">
-            <img class="photo__image" src="./images/photo-grid-train.jpg" alt="Поезд">
-            <img class="photo__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="Небо">
-            <img class="photo__image" src="./images/photo-grid-tuman.jpg" alt="Туман">                
-            <img class="photo__image" src="./images/photo-grid-sochi.jpg" alt="Лес">
-            <img class="photo__image" src="./images/photo-grid-arisa.jpg" alt="Лед">
-            <img class="photo__image" src="./images/photo-grid-baikal.jpg" alt="Байкал">
-            <img class="photo__image" src="./images/photo-grid-elbrus.jpg" alt="Эльбрус">
-            <img class="photo__image" src="./images/photo-grid-kondratiev.jpg" alt="Кондратьев">
-            <img class="photo__image" src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка">
-            <img class="photo__image" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка2">
-            <img class="photo__image" src="./images/photo-grid-baikal-2.jpg" alt="Байкал2">
-            <img class="photo__image" src="./images/photo-grid-ergaki.jpg" alt="Лес и туман">
+          <section class="photo-grid">
+            <img class="photo-grid__image" src="./images/photo-grid-train.jpg" alt="Поезд">
+            <img class="photo-grid__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="Небо">
+            <img class="photo-grid__image" src="./images/photo-grid-tuman.jpg" alt="Туман">                
+            <img class="photo-grid__image" src="./images/photo-grid-sochi.jpg" alt="Лес">
+            <img class="photo-grid__image" src="./images/photo-grid-arisa.jpg" alt="Лед">
+            <img class="photo-grid__image" src="./images/photo-grid-baikal.jpg" alt="Байкал">
+            <img class="photo-grid__image" src="./images/photo-grid-elbrus.jpg" alt="Эльбрус">
+            <img class="photo-grid__image" src="./images/photo-grid-kondratiev.jpg" alt="Кондратьев">
+            <img class="photo-grid__image" src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка">
+            <img class="photo-grid__image" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка2">
+            <img class="photo-grid__image" src="./images/photo-grid-baikal-2.jpg" alt="Байкал2">
+            <img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg" alt="Лес и туман">
           </section>
           <section class="places">
             <div class="place">
@@ -93,7 +93,7 @@
                 <a href="http://park-kosa.ru" target="_blank" class="place__link"> park-kosa.ru</a>
               </div>
               <img src="./images/place-kosa.jpg" alt="водный горизонт" class="place__image">
-              <div>
+              <div class="place__texts">
                 <p class="place__text">
                   Здесь, посреди лесов и песчаных дюн, вы 
                   сможете увидеть два водных горизонта — спокойного Куршского 
@@ -116,7 +116,7 @@
                 <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__link">National Geographic</a>
               </div>
               <img src="./images/place-kolsky.jpg" alt="снежная гряда" class="place__image">
-              <div>
+              <div class="place__texts">
                 <p class="place__text">
                   Почти весь полуостров находится за Полярным кругом. Саамская тундра, 
                   от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся 
@@ -139,7 +139,7 @@
                 <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="place__link"> Facebook</a>
               </div>
               <img src="./images/place-altai.jpg" alt="водный горизонт" class="place__image">
-              <div>
+              <div class="place__texts">
                 <p class="place__text">
                   Алтай — одно из красивейших мест в России. 
                   В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, 
@@ -163,7 +163,7 @@
                     </a>
                 </div>
                 <img src="./images/place-winter-baikal.jpg" alt="потрескавшийся лёд" class="place__image">
-                <div>
+                <div class="place__texts" >
                     <p class="place__text">
                     Всем известен Байкал как крупнейшее озеро в мире. Многие также 
                     знают, что это самый большой источник пресной воды и одно из красивейших 
@@ -191,7 +191,7 @@
                     </a>
                 </div>
                 <img src="./images/place-karelia.jpg" alt="водный горизонт" class="place__image">
-                <div>
+                <div class="place__texts">
                     <p class="place__text">
                     Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская 
                     лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 
@@ -217,16 +217,18 @@
       </section>
       </main>
         <footer class="footer">
-          <ul class="footer__links">
-            <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-            <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-            <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-            <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-            <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
-          </ul>
+          <nav>
+            <ul class="footer__links">
+              <li class="footer__list" ><a  class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+              <li class="footer__list"><a  class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+              <li class="footer__list"><a  class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+              <li class="footer__list"><a  class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+              <li class="footer__list"><a  class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+            </ul>
+          </nav>
           <p class="footer__copyright">&copy; 2020. Денис Далецкий</p>
         </footer> 
     </div>
-  </div>
+  
 </body>
 </html>

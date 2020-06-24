@@ -1,0 +1,6 @@
+@media screen and (max-width: 650px){
+.place__texts{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+}

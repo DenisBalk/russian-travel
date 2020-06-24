@@ -1,12 +1,13 @@
 @import  url(./__lang-link-item/header__lang-link-item.css);
 @import  url(./__lang-link/header__lang-link.css);
-
+@import  url(./__lang-link/__lang-link_active/header__lang-link_active.css);
 @import  url(./__lang-links/header__lank-links.css);
 @import  url(./__logo/header__logo.css);
 
 .header {
     font-family: "Inter", Arial, sans-serif;
-    padding: 28px 48px 56px;
+    
+    padding: 28px 0 56px;
     display: flex;
     justify-content: space-between;
   }
@@ -14,6 +15,7 @@
   @media screen and (max-width: 1024px) {
     .header {
       padding: 28px 48px 48px;
+      
     }
   }
   

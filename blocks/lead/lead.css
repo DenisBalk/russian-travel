@@ -5,7 +5,7 @@
 
 .lead {
     font-family: "Inter", Arial, sans-serif;
-    padding: 0 148px;
+    padding: 0 71px;
     justify-content: center;
   }
   
@@ -21,9 +21,4 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
-    .lead {
-         padding: 0;
-         
-    }
-  }
+  
