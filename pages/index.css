@@ -2,7 +2,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
-@import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__gride/photo-gride.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/page/page.css);

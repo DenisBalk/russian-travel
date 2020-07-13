@@ -5,7 +5,13 @@
   text-align: center;
   margin: 32px auto 0;
   }
-  
+  @media screen and (max-width: 640px) {
+    .lead__subtitle {
+    
+    font-size: 20px;
+    line-height: 20px;
+    }
+  }
   @media screen and (max-width: 375px) {
     .lead__subtitle {
     max-width: 288px;
