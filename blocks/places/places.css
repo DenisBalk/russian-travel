@@ -1,12 +1,23 @@
 .places {
   display: flex;
   flex-direction: column;
-  max-width: 928px;
+  max-width: 1280px;
+  padding-right: calc(0.3906*100% - 352px);
+    padding-left: calc(0.3906*100% - 352px);
+  /*
   margin: 0 auto 92px;
-background-color: #2A2C2F;  
+  */
+  background-color: #2A2C2F;  
 }
 @media screen and (max-width: 400px){
   .places{
     margin: 0 auto 64px;
+   }
+}
+@media screen and (max-width: 768px){
+  .places{
+    max-width: 720px;
+    padding-left: 24px;
+    
    }
 }

@@ -11,14 +11,17 @@
 }
 @media (max-width: 1024px){
   .photo-grid{
-    
+    padding-left: 48px;
+    padding-right: 48px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
    }
 }
 
-    @media (max-width: 760px){
+    @media (max-width: 770px){
     .photo-grid {
+      padding-left: 24px;
+    padding-right: 24px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     margin-bottom: 88px;
