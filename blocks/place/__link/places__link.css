@@ -4,7 +4,7 @@
     line-height: 22px;
   }
   .place__link:hover{
-    opacity: 0.5;
+    opacity: 0.8;
   }
   @media screen and (max-width: 450px){
     .place__link{

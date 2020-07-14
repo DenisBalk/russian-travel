@@ -17,10 +17,13 @@
   @media screen and (max-width: 768px){
     .place {
       grid-template-columns: 340px 352px;
-      margin-bottom: 72px;
+      
+      grid-gap: 48px 28px;
+      
+      
     }
     }
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 766px){
     .place{
       display: flex;
       flex-direction: column;
